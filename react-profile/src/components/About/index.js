@@ -5,7 +5,7 @@ function About() {
     return (
         <section className="my-5">
             <h1 id="about">Who am I?</h1>
-            <img src={coverImage} className="my-2" style={{ width: "50%", margin: "20px" }} alt="cover" />
+            <img src={coverImage} className="my-2" style={{ width: "75%", margin: "20px" }} alt="cover" />
             <div className="my-2">
             <p>
                 Welcome to my portfolio page using REACT.js! 
