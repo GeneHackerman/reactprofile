@@ -1,5 +1,5 @@
 import React from 'react';
-// import { capitalizeFirstLetter } from "../../utils/helpers";
+import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Nav(props) {
      
@@ -47,7 +47,7 @@ const handleClick = (item) => {
                                     setContactSelected(false);
                                     }}
                                     >
-                                    {/* {capitalizeFirstLetter(category.name)} */}
+                                    {capitalizeFirstLetter(category.name)}
                                 </span>
                         </li>
                      ))}
