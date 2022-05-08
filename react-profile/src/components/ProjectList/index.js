@@ -31,7 +31,7 @@ const ProjectList = ({ category }) => {
             <div className="flex-row">
                 {currentProject.map((image, i) => (
                    <img 
-                   src={require(`../../assets/projectimg/${category}/${i}.jpg`)}
+                   src={require(`../../assets/projectimg/${category}/${i}.png`)}
                    alt={image.name}
                    className="img-thumbnail mx-1"
                    key={image.name}

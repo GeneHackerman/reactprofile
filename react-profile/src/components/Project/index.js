@@ -2,7 +2,7 @@ import React from 'react';
 import ProjectList from '../ProjectList';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
-function Projects(props) {
+function Project(props) {
     const { currentCategory } = props;
     return (
         <section>
@@ -14,4 +14,4 @@ function Projects(props) {
 }
 
 
-export default Projects;
+export default Project;

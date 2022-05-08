@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 import ContactForm from './components/Contact';
-import Projects from './components/Projects';
+import Project from './components/Project';
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
@@ -11,7 +11,7 @@ function App() {
       name: 'Portfolio',
       description: 'Links to my projects',
     },
-    { name: 'Projects', description: 'Several projects that I have worked on including class collaborations' },
+    { name: 'Project', description: 'Several projects that I have worked on including class collaborations' },
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
@@ -28,7 +28,7 @@ function App() {
       <main>
         {!contactSelected ? (
           <>
-          <Projects currentCategory={currentCategory}></Projects>
+          <Project currentCategory={currentCategory}></Project>
           <About></About>
           </>
         ) : (
