@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 const ProjectList = ({ category }) => {
     const [projects] =  useState([
         {
-            name: 'Grocery aisle', 
-            category: 'commercial',
+            name: 'Run-Buddy', 
+            category: 'portfolio',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
         },
     ]);

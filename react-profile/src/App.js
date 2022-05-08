@@ -12,7 +12,6 @@ function App() {
       description: 'Links to my projects',
     },
     { name: 'Projects', description: 'Several projects that I have worked on including class collaborations' },
-    { name: 'Resume', description: 'My work experience' },
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
