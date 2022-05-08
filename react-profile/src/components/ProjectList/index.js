@@ -24,14 +24,14 @@ const ProjectList = ({ category }) => {
         }
     ]);
 
-    const currentProject = projects.filter(project => project.category === category);
+    const currentProjects = projects.filter(project => project.category === category);
 
     return (
         <div>
             <div className="flex-row">
-                {currentProject.map((image, i) => (
+                {currentProjects.map((image, i) => (
                    <img 
-                   src={require(`../../assets/projectimg/${category}/${i}.png`)}
+                   src={require(`../../assets/projectimg/${category}/${i}.png`).default}
                    alt={image.name}
                    className="img-thumbnail mx-1"
                    key={image.name}
