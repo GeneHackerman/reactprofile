@@ -14,6 +14,10 @@
   
   ## Description
   A profile page created with REACT.js.
+  
+  ![landing](https://user-images.githubusercontent.com/93616797/167328962-07ddc551-ce71-48ae-ba41-8a4d89ce737c.png)
+  ![contactform](https://user-images.githubusercontent.com/93616797/167328976-98d26712-1a16-485c-b2d0-374188130699.png)
+
 
   ## Installation
   Clone the repository and install the proper packages, then NPM start at the command line.
